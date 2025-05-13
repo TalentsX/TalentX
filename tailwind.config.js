@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         koPub: ['KoPubBatang', 'serif'],
+        inriaserif: ['"Inria Serif"', 'serif'],
       },
     },
   },
