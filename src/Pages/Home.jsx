@@ -66,7 +66,7 @@ const settings = {
 
 export const Home = () => {
   return (
-    <div>
+    <div className='w-screen overflow-hidden object-contain'>
   <Navbar/>
       {/* Slider Section */}
     <div className="overflow-hidden">
@@ -122,30 +122,39 @@ export const Home = () => {
       </div>
 
       {/* Section 3 */}
-      <div className="w-full h-auto bg-[#6C27B3]">
-        <div className="w-[90%] mx-auto h-full grid grid-cols-1 md:grid-cols-12 py-[50px] gap-10 ">
-          <div className='md:col-span-7 col-span-12  flex flex-col justify-center items-start gap-[35px]'>
-           <h2 className='text-white text-[55px] font-inriaserif text-left'>Why are we our client’s trusted partners?</h2>
+ <div className="w-screen h-auto bg-[#6C27B3]">
+  <div className="w-[90%] mx-auto h-full py-12 gap-10">
+    
+    
+      <h2 className="text-white text-3xl sm:text-4xl md:text-5xl font-inriaserif text-left leading-tight">
+        Why are we our client’s trusted partners?
+      </h2>
+      <div className='grid gric-cols-12 flex justify-center items-center'>
+<div className="col-span-12 md:col-span-7 flex flex-col justify-center items-start gap-8">
+      <ul className="list-disc list-inside text-sm sm:text-base md:text-lg font-inriaserif space-y-2 text-left text-white">
+        <li>Provide data-driven insights for better talent decisions.</li>
+        <li>Offer customized solutions tailored to each client’s needs.</li>
+        <li>Foster sustained growth with continuous feedback and development.</li>
+        <li>Operate with integrity and transparency in all we do.</li>
+        <li>Stay ahead with innovative, cutting-edge solutions.</li>
+      </ul>
+    </div>
 
-  <ul className="list-disc list-inside text-[16px] md:text-[20px] font-inriaserif space-y-2 text-left text-white">
-  <li>Provide data-driven insights for better talent decisions.</li>
-  <li>Offer customized solutions tailored to each client’s needs.</li>
-  <li>Foster sustained growth with continuous feedback and development.</li>
-  <li>Operate with integrity and transparency in all we do.</li>
-  <li>Stay ahead with innovative, cutting-edge solutions.</li>
-</ul>
-
+    <div className="col-span-12 md:col-span-5 flex justify-center items-center">
+      <img
+        src={partners}
+        alt="Our Partners"
+        className="w-full max-w-[350px] mx-auto h-auto object-contain"
+      />
+    </div>
 </div>
-         <div className="col-span-12 md:col-span-5 flex justify-center items-center">
-  <img src={partners} alt="Our Partners" className="w-auto h-auto object-contain" />
+  </div>
 </div>
 
-        </div>
-      </div>
 
 
       {/* Section 4 */}
-<div className='bg-white h-auto w-full'>
+<div className='bg-white h-auto w-screen'>
   
   <div className='w-[90%] mx-auto h-full py-10'>
     <h2 className='font-inriaserif text-[30px] md:text-[35px] lg:text-[44px] text-left ps-5 leading-[1]'>Introducing <span className='font-bold'>MultiRater.TxT</span></h2>
