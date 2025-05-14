@@ -38,7 +38,7 @@ export const Navbar = () => {
           } absolute top-[60px] left-0 w-full bg-white md:static md:flex md:items-center md:gap-[40px] md:w-auto z-10`}
         >
           {/* Nav Links */}
-          <ul className="flex flex-col md:flex-row gap-4 md:gap-[20px] px-6 py-4 md:p-0 flex items-center justify-center text-center">
+          <ul className="flex flex-col md:flex-row gap-4 md:gap-[20px] px-6 py-4 md:p-0 flex items-center justify-center text-center font-inriaserif font-bold text-[16px]">
             <li>
               <a href="/Insights" className="hover:text-gray-400">
                 SERVICES
@@ -56,7 +56,7 @@ export const Navbar = () => {
             </li>
             <li><div className="flex justify-center md:justify-end px-6 md:px-0 pb-4 md:pb-0">
             <a href="/contact">
-              <button className="bg-[#8B53FF] px-4 py-2 rounded-2xl text-white w-full md:w-auto">
+              <button className="bg-[#6C27B3] px-4 py-2 rounded-2xl text-white w-full md:w-auto">
                 CONTACT
               </button>
             </a>

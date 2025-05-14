@@ -2,24 +2,24 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className="w-full bg-[#8B53FF] text-white py-12 font-inriaserif">
-  <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
-    
+  <div className="w-full bg-[#6C27B3] h-auto text-white  font-inriaserif overflow-hidden">
+  <div className="w-[90%] py-[80px] mx-auto flex flex-col justify-center">
+    <div className='grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 flex justify-center items-center'>
     {/* Left Section */}
     <div>
-      <h2 className="text-2xl md:text-[44px] font-bold mb-4 text-left">Curious to learn more?</h2>
-      <p className="my-6 text-[22px] leading-relaxed text-left">
+      <h2 className="text-2xl md:text-[48px] font-bold mb-4 text-left">Curious to learn more?</h2>
+      <p className="my-6 text-[16px] leading-relaxed text-left">
         Schedule a demo with the TalentX Team to discover how our scientific assessments and feedback tools can transform your talent development strategy.
       </p>
-      <p className="mb-4 text-[22px] leading-relaxed text-left">
+      <p className="mb-4 text-[16px] leading-relaxed text-left">
         By leveraging cutting-edge technology, we help organizations cultivate high-performing individuals, effective leaders, and dynamic teams.
       </p>
-      <p className="mt-10 mb-2 text-[23px]  font-bold text-left">Let’s keep in touch!</p>
-      <p className="text-2xl font-bold underline text-left">support@talentxtools.com</p>
+      <p className="mt-10 mb-2 text-[20px]  font-bold text-left">Let’s keep in touch!</p>
+      <p className="text-[30px] font-bold underline text-left">support@talentxtools.com</p>
     </div>
 
     {/* Right Section: Form */}
-    <div className="bg-white p-8 rounded-lg shadow-lg text-black w-full max-w-md mx-auto">
+    <div className="bg-white p-8 rounded-lg shadow-lg text-black w-full max-w-md mx-auto ">
       <h2 className="text-3xl font-bold mb-6 text-left">Let’s talk!</h2>
       <form className="space-y-4">
         <input
@@ -51,17 +51,18 @@ export const Footer = () => {
         {/* captcha functionality will be add here */}
         <button
           type="submit"
-          className="w-full bg-[#8B53FF] text-white py-2 px-4 rounded hover:bg-[#6a3fd4] transition"
+          className="w-full bg-[#6C27B3] text-white py-2 px-4 rounded hover:bg-[#6a3fd4] transition"
         >
           Submit
         </button>
       </form>
     </div>
-  
+  </div>
 
   {/* Footer */}
-  <div className="text-white text-[20px] mt-12 text-left">
+  <div className="text-white text-[16px] mt-12 text-left">
     Copyright © 2025 Talent X You Limited – All Rights Reserved.
+  
   </div>
   </div>
 </div>
