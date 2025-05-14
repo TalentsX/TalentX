@@ -122,26 +122,32 @@ export const Home = () => {
       </div>
 
       {/* Section 3 */}
-      <div className="w-full h-auto bg-[#6C27B3]">
-        <div className="w-[90%] mx-auto h-full grid grid-cols-1 md:grid-cols-12 py-[50px] gap-10 ">
-          <div className='md:col-span-7 col-span-12  flex flex-col justify-center items-start gap-[35px]'>
-           <h2 className='text-white text-[55px] font-inriaserif text-left'>Why are we our client’s trusted partners?</h2>
+<div className="w-full h-auto bg-[#6C27B3]">
+  <div className="w-[90%] mx-auto h-full py-[50px]">
+    
 
-  <ul className="list-disc list-inside text-[16px] md:text-[20px] font-inriaserif space-y-2 text-left text-white">
-  <li>Provide data-driven insights for better talent decisions.</li>
-  <li>Offer customized solutions tailored to each client’s needs.</li>
-  <li>Foster sustained growth with continuous feedback and development.</li>
-  <li>Operate with integrity and transparency in all we do.</li>
-  <li>Stay ahead with innovative, cutting-edge solutions.</li>
-</ul>
-
-</div>
-         <div className="col-span-12 md:col-span-5 flex justify-center items-center">
-  <img src={partners} alt="Our Partners" className="w-auto h-auto object-contain" />
-</div>
-
-        </div>
+    <div className='grid grid-cols-12 gap-10 w-full mx-auto mt-8'>
+      {/* Left Content */}
+      <div className='col-span-12 md:col-span-7 flex flex-col justify-center items-start gap-10'>
+        <h2 className='text-white text-[20px] sm:text-[30px] md:text-[55px] font-inriaserif text-left leading-snug'>
+      Why are we our client’s trusted partners?
+    </h2>
+        <ul className="list-disc list-inside text-[16px] sm:text-[18px] md:text-[20px] font-inriaserif space-y-2 text-left text-white">
+          <li>Provide data-driven insights for better talent decisions.</li>
+          <li>Offer customized solutions tailored to each client’s needs.</li>
+          <li>Foster sustained growth with continuous feedback and development.</li>
+          <li>Operate with integrity and transparency in all we do.</li>
+          <li>Stay ahead with innovative, cutting-edge solutions.</li>
+        </ul>
       </div>
+
+      {/* Right Image */}
+      <div className="col-span-12 md:col-span-5 flex justify-center items-center">
+        <img src={partners} alt="Our Partners" className="w-auto h-auto object-contain" />
+      </div>
+    </div>
+  </div>
+</div>
 
 
       {/* Section 4 */}
