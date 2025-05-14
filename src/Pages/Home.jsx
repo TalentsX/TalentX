@@ -228,7 +228,7 @@ export const Home = () => {
 <div className="w-full bg-white py-[80px] font-inriaserif">
   <div className='w-[90%] mx-auto'>
     <h2 className="text-2xl md:text-[48px] font-bold text-black mb-6 text-center">Our Vision</h2>
-  <div className="relative text-left">
+  <div className="relative text-center">
     {/* Opening Quote */}
     
      <span className="text-[80px] text-black   font-extrablack">“</span> <br/>
