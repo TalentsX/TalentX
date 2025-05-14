@@ -126,10 +126,10 @@ export const Home = () => {
   <div className="w-[90%] mx-auto h-full py-[50px]">
     
 
-    <div className='grid grid-cols-12 gap-10 w-full mx-auto mt-8'>
+    <div className='grid grid-cols-12 gap-6 md:gap-10 w-full mx-auto mt-8'>
       {/* Left Content */}
-      <div className='col-span-12 md:col-span-7 flex flex-col justify-center items-start gap-10'>
-        <h2 className='text-white text-[20px] sm:text-[30px] md:text-[55px] font-inriaserif text-left leading-snug'>
+      <div className='col-span-12 md:col-span-7 flex flex-col justify-center items-start gap-6'>
+        <h2 className='text-white text-[25px] sm:text-[30px] md:text-[55px] font-inriaserif text-left leading-snug'>
       Why are we our client’s trusted partners?
     </h2>
         <ul className="list-disc list-inside text-[16px] sm:text-[18px] md:text-[20px] font-inriaserif space-y-2 text-left text-white">
@@ -143,7 +143,7 @@ export const Home = () => {
 
       {/* Right Image */}
       <div className="col-span-12 md:col-span-5 flex justify-center items-center">
-        <img src={partners} alt="Our Partners" className="w-auto h-auto object-contain" />
+        <img src={partners} alt="Our Partners" className="w-auto max-w-full h-auto object-contain" />
       </div>
     </div>
   </div>
@@ -156,7 +156,7 @@ export const Home = () => {
   <div className='w-[90%] mx-auto h-full py-10'>
     <h2 className='font-inriaserif text-[30px] md:text-[35px] lg:text-[44px] text-left ps-5 leading-[1]'>Introducing <span className='font-bold'>MultiRater.TxT</span></h2>
     <h2 className='font-inriaserif text-[15px] md:text-[25px] text-[31px] text-left ps-5'>Game Changer for 360 Diagnostics</h2>
-    <div className='grid grid-cols-12 my-10 gap-10'>
+    <div className='grid grid-cols-12 my-10 gap-6 md:gap-10'>
  <div className='flex flex-col md:col-span-6 col-span-12'>
   <ul className="space-y-4 text-left text-black">
   {[
